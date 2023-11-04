@@ -18,7 +18,7 @@ import com.webservice.services.EmployeeServiceImplement;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("employee")
 public class EmployeeController {
 	@Autowired
 public EmployeeServiceImplement employeeService;
