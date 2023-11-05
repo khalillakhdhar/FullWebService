@@ -8,6 +8,6 @@ import java.util.List;
 
 
 public interface RappelRepository extends JpaRepository<Rappel, Long> {
-Page<Rappel>  findByDescriptionContaining(String description);
+List<Rappel>  findByDescriptionContaining(String description);
 
 }
